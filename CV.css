@@ -25,3 +25,11 @@ h1 {
 h3 {
     font-size: 1.5em;
 }
+.liststyle{
+    list-style-type: none;
+    display: inline-block;
+}
+.liststyleol{
+    display: inline-block;
+}
+
