@@ -1,31 +1,31 @@
-
 #body {
     font-family: "cochin", sans-serif;
     text-align: justify;
 }
 
 /* Header */
-.firstbox{
+.firstbox {
     position: relative;
     color: white;
-    border: 3px solid #000; 
-    padding: 20px;
+    border: 3px solid #000;
+    padding: 40px;
     background-image: url('img/fondo_def.jpeg');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+}
+.headertext {
+    display: inline-block;
 }
 
 /* Main */
-.secondbox{
-    border: 3px solid #000; 
-    padding: 20px;
+.secondbox {
+    border: 3px solid #000;
+    padding: 30px;
     border-radius: 10px;
-    background-color:#e8f8f5;
-    
+    background-color: #e8f8f5;
+
 }
 
 h1 {
@@ -39,29 +39,38 @@ h3 {
 /* links */
 a:visited {
     color: #566573;
-  }
+}
+
 a:hover {
     color: green;
-  }
+}
 
 /* lists */
-.liststyle{
+.liststyle {
     list-style-type: none;
     display: inline-block;
 }
-.liststyleol{
+
+.liststyleol {
     display: inline-block;
 }
-.plist{
+
+.plist {
     font-size: 0.75em;
 }
 
-.profile-pic img{
-    position: relative;
-    width: 200px; 
-    height: 200px; 
+/*Images*/
+.profile-pic {
+    background-image: url(img/foto_val_cvweb.JPEG);
+    display: inline-block;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid #82e0aa;
-    object-fit: cover;
+    background-size: cover;
+    margin-left: 270px;
+    background-position: center;
+
 }
+
